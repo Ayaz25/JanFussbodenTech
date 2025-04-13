@@ -6,12 +6,6 @@ const SideBar: React.FC = () => {
     <aside className="sidebar">
       <div className="left">
         <img className="sidebar-logo-img" src={sideBarLogo}></img>
-        {/* <button>
-          <i className="bi bi-house-door"></i>
-        </button>
-        <button>
-          <i className="bi bi-info-circle"></i>
-        </button> */}
       </div>
       <div className="right">
         <div className="right-inner">
