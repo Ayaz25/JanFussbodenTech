@@ -1,0 +1,63 @@
+.homepage {
+    height: 100vh;
+    padding-left: 60px;
+    overflow-y: auto;
+    background: #ffffff;
+}
+.homepage-background {
+    position: sticky;
+    margin-left: 5px;
+    border-radius: 0.1rem;
+    border-radius: 0.5rem;
+    top: 0px;
+    width: 100%;
+    height: 30%;
+    background-image: url('../assets/homebackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.schatten-block {
+    position: sticky;
+    top: 281px;
+    margin-left: 5px;
+    height: 20px;
+    width: 100%;
+    background: #ffffff;
+
+}
+
+.home-content {
+    margin: 8rem 12rem 0 16rem;
+    height: auto;
+}
+.home-title {
+    margin-bottom: 5rem;
+}
+
+.homepage h2 {
+    font-size: xx-large;
+    font-weight: 700;
+    display: inline-block
+}
+
+.homepage h3 {
+    padding-left: 0.3rem;
+    font-size: x-large;
+    font-weight: 700;
+    display: inline-block
+}
+
+.homepage-text {
+    font-size: large;
+    margin-left: 1rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    max-width: 80%;
+    line-height: 2rem;
+    
+}
+
+.uber-uns {
+    margin-top: 5rem;
+}

@@ -18,16 +18,17 @@ h2, h3, ul {
 }
 
 .sidebar {
+    z-index: 1;
     position: fixed;
     overflow: hidden;
-    top: 10px;
+    top: 1px;
     left: 10px;
     bottom: 15px;
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 60px;
-    border-radius: 18px;
+    width: 50px;
+    border-radius: 10px;
     transition: 0.4s;
     background: #ffffff;
 }
@@ -58,29 +59,17 @@ h2, h3, ul {
 .left {
     z-index: 1;
     left: 0;
-    width: 60px;
-    background: #ffffff;
+    width: 50px;
+    background: #dfe5e8;
 }
 
 .left img {
-    width: 40px;
+    width: 30px;
     margin: 24px 0 28px;
 }
 
-.left button {
-    width: 44px;
-    height: 44px;
-    display: grid;
-    place-items: center;
-}
-
-.left button:hover {
-    background: var(--color-bg);
-    color: #384251;
-}
-
 .right {
-    left: 60px;
+    left: 50px;
     height: 100%;
     position: absolute;
 
@@ -88,8 +77,8 @@ h2, h3, ul {
 
 .right-inner {
     position: absolute;
-    inset: 8px;
-    left: 4px;
+    inset: 2px;
+    left: 5px;
     border-radius: 12px;
     background: var(--color-bg);
 }
@@ -105,12 +94,6 @@ h2, h3, ul {
     font-size: 16px;
     font-weight: 700;
 
-}
-
-.right h3 {
-    font-size: 12px;
-    font-weight: 500;
-    color: var(--color-muted);
 }
 
 .right nav {
@@ -150,7 +133,7 @@ h2, h3, ul {
 }
 
 .sidebar:hover {
-    width: 300px;
+    width: 292px;
 }
 
 .sidebar:hover .right {

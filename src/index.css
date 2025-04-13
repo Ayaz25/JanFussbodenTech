@@ -1,9 +1,10 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   background: #f4f6fa;
-
 }
-
+body {
+  margin: 0;
+}
 /* a {
   font-weight: 500;
   color: #646cff;

@@ -1,7 +1,19 @@
-import sideBarLogo from "../assets/logo.png";
+import { useNavigate } from "react-router-dom";
+import sideBarLogo from "../assets/logo_svg.svg";
 import "../css-styles/sidebar.css";
 
 const SideBar: React.FC = () => {
+  const navigate = useNavigate();
+
+  const goHome = () => {
+    navigate("/");
+  };
+  const goProdukte = () => {
+    navigate("/produkte");
+  };
+  const goGalarie = () => {
+    navigate("galarie");
+  };
   return (
     <aside className="sidebar">
       <div className="left">
@@ -14,37 +26,28 @@ const SideBar: React.FC = () => {
               <h2>JanFußbodenTechnicker</h2>
               <hr />
             </div>
-            <i className="ai-chevron-vertical"></i>
           </div>
           <nav>
-            <button>
-              <i className="ai-open-envelope"></i>
+            <button onClick={goHome}>
               <span>Home</span>
-              <i className="ai-plus"></i>
             </button>
-            <button>
-              <i className="ai-open-envelope"></i>
+            <button onClick={goProdukte}>
               <span>Produkte</span>
-              <i className="ai-plus"></i>
             </button>
-            <button>
-              <i className="ai-open-envelope"></i>
+            <button onClick={goGalarie}>
               <span>Galarie</span>
-              <i className="ai-plus"></i>
             </button>
             <div className="contact-daten">
               <button>
-                <i className="ai-open-envelope"></i>
                 <span>Kontakt</span>
-                <i className="ai-plus"></i>
               </button>
               <ul className="submenu">
                 <i className="bi bi-envelope-at"></i>
-                <li>shehohasan@gmail.com</li>
+                <li>janfussbodenleger@gmail.com</li>
               </ul>
               <ul className="submenu">
                 <i className="bi bi-telephone"></i>
-                <li>+49 1728296372</li>
+                <li>+49 160 81 36 135</li>
               </ul>
               <ul className="submenu">
                 <i className="bi bi-geo-alt"></i>
