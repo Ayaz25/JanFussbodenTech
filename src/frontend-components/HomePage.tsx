@@ -1,4 +1,5 @@
 import "../css-styles/homepage.css";
+import PageFooter from "./PageFooter";
 const HomePage: React.FC = () => {
   return (
     <>
@@ -44,6 +45,7 @@ const HomePage: React.FC = () => {
             sondern Räume zu gestalten, die Lebensqualität vermitteln.
           </div>
         </div>
+        <PageFooter />
       </div>
     </>
   );
