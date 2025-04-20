@@ -9,7 +9,7 @@ const HomePage: React.FC = () => {
         <div className="home-content">
           <div className="home-title">
             <h2>JanFußbodenTechnick</h2>
-            <h3> – Ihr Experte für hochwertige Fußböden aus Dortmund.</h3>
+            <h3> Ihr Experte für hochwertige Fußböden aus Dortmund.</h3>
           </div>
           <div className="homepage-text">
             Ein hochwertiger Boden ist mehr als nur ein funktionaler Untergrund
