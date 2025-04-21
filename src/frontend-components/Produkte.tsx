@@ -26,12 +26,12 @@ const Produkte: React.FC = () => {
             <h4>• Fußleisten montage</h4>
           </div>
           <div className="productpage-text">
-            Ob gemütlich, modern oder klassisch – bei Urs Klaus in Dortmund
-            finden Sie nicht nur den passenden Bodenbelag, sondern auch echte
-            Beratung mit Leidenschaft und Fachverstand. Wir bieten Ihnen ein
-            vielseitiges Spektrum an hochwertigen Bodenlösungen: von robustem
-            PVC über modernes Vinyl und umweltfreundliches Linoleum bis hin zu
-            weichem Teppich, edlem Parkett oder praktischem Laminat.
+            Ob gemütlich, modern oder klassisch – bei JanFußbodenTechnicker in
+            Dortmund finden Sie nicht nur den passenden Bodenbelag, sondern auch
+            echte Beratung mit Leidenschaft und Fachverstand. Wir bieten Ihnen
+            ein vielseitiges Spektrum an hochwertigen Bodenlösungen: von
+            robustem PVC über modernes Vinyl und umweltfreundliches Linoleum bis
+            hin zu weichem Teppich, edlem Parkett oder praktischem Laminat.
           </div>
           <div className="productpage-text">
             Doch unser Service endet nicht bei der Auswahl. Wir kümmern uns um
