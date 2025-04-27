@@ -9,7 +9,7 @@ const SideBar: React.FC = () => {
     navigate("/");
   };
   const goProdukte = () => {
-    navigate("/produkte");
+    navigate("produkte");
   };
   const goGalarie = () => {
     navigate("galarie");

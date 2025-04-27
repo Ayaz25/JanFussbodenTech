@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ayaz25.github.io/JanFussBodentech",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

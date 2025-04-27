@@ -10,8 +10,8 @@ function App() {
       <SideBar></SideBar>
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
-        <Route path="/produkte" element={<Produkte />}></Route>
-        <Route path="/galarie" element={<GalariePage />}></Route>
+        <Route path="produkte" element={<Produkte />}></Route>
+        <Route path="galarie" element={<GalariePage />}></Route>
       </Routes>
     </>
   );
