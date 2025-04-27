@@ -1,8 +1,8 @@
 
-const path = "src/assets/galarieBilder"
+const path = "src/assets"
 const data = [
     {
-        imagelink: `${path}/bild1.jpg`
+        imagelink: 'src/assets/bild1.jpg'
     },
     {
         imagelink: `${path}/bild2.jpg`
