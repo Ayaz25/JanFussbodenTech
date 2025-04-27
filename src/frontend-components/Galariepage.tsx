@@ -1,12 +1,11 @@
-// import { useState } from "react";
-// import { getBilder } from "../constant/galarie";
+import { useState } from "react";
 import "../css-styles/galariepage.css";
 import PageFooter from "./PageFooter";
+import imageArray from "../constant/galarie";
 
 const GalariePage: React.FC = () => {
-  //const bilder = getBilder();
-  // const defaultImage = "/assets/bild1.jpg";
-  //const [selectedBild, setSelectedBild] = useState(defaultImage);
+  const defaultImage = imageArray[0];
+  const [selectedBild, setSelectedBild] = useState(defaultImage);
   return (
     <>
       <div className="galareipage">
@@ -21,11 +20,19 @@ const GalariePage: React.FC = () => {
             <hr className="line" />
 
             <div className="selectedImage-container">
-              <img
-                className="selectedImage"
-                src="../src/assets/shexo.jpg"
-                alt="src/assets/shexo.jpg"
-              />
+              <img className="selectedImage" src={selectedBild} />
+            </div>
+            <div className="image-container">
+              {imageArray.map((image, index) => (
+                <div key={index}>
+                  <img
+                    className="image"
+                    onClick={() => setSelectedBild(image)}
+                    src={image}
+                    alt="gallery-image"
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import "../css-styles/PageFooter.css";
+import sideBarLogo from "../assets/logo_svg.svg";
 
 const PageFooter: React.FC = () => {
   return (
@@ -6,11 +7,7 @@ const PageFooter: React.FC = () => {
       <div className="layout"></div>
       <div className="footer-container">
         <div className="footer">
-          <img
-            className="footer-img"
-            src="../src/assets/logo_svg.svg"
-            alt="logo-logo"
-          ></img>
+          <img className="footer-img" src={sideBarLogo} alt="logo-logo"></img>
           <div className="adress">
             <span>FussStrasse 2</span>
             <span>4421 Dortmund</span>
